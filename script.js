@@ -1,8 +1,8 @@
-function calculateMinCost() {
-  //your code here
-	 function minCostToFormRopes(event){
+function minCostToFormRopes(event)
+{
 
-   function minCost(event) {
+   function minCost(event) 
+   {
 	event.preventDefault();
 	var inputElement = document.querySelector('input').value;
     var arr = inputElement.split(',');
@@ -30,7 +30,5 @@ function calculateMinCost() {
 	document.getElementById("result").textContent = cost;
 }
 	document.querySelector("div").textContent=cost;
-  
-  
-  
-}  
+}
+
